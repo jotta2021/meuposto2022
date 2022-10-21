@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+ <script src="/script.js"></script>
+  </head>
+  <body>
+
+    
+
+  
+
+    <div class="Form"> 
+      <header class="header-cad">
+        <h1>Faça seu cadastro</h1>
+         <div onclick="closemenu()" class="close">
+      <span>X</span>
+      </div>
+
+      </header>
+     
+       
+      
+
+      <form class="input">
+        <img class="image" src="/imagem/undraw_reminder_re_fe15.svg" alt="">
+        <div class="cad">
+         
+        <label for="”name”">Nome:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Digite aqui seu nome completo*"
+          required
+        /><br />
+        <br />
+        <label for="”password”">Crie sua Senha:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Crie sua Senha*"
+          required
+        /><br />
+        <br />
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id:"endereco" placeholder="Digite seu
+        endereço*" required><br />
+        <br />
+        <label>Sexo:</label><br />
+
+  Masculino
+        <input
+          type="radio"
+          name="sexo"
+          id="sexo"
+          value="Masculino"
+          checked
+        /><br />
+        <br />
+        Feminino:
+        <input type="radio" name="sexo" id="”sexo”" value="”Feminino”" /><br />
+        <br />
+  <label>Data de nascimento:</label>
+
+        <input type="date" name="nascimento" id="nascimento*" required /><br />
+        <br />
+    
+        <label for="telefone">Seu Telefone:</label>
+        <input
+          type="text"
+          id="telefone"
+          name="telefone"
+          placeholder="Digite seu Telefone*"
+          required
+        /><br />
+        <br />
+
+        <label for="email">Seu E-Mail:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu E-Mail*"
+          required
+        /><br />
+        <br />
+        <label>Posto de Saúde:</label>
+        <input
+          type="text"
+          id="Posto de saúde"
+          name="Posto de Saúde"
+          placeholder="Digite aqui o posto de saúde*"
+          required
+        /><br />
+        <br />
+    
+       <button class="cadastro">Fazer cadastro</button>
+      </form>
+
+     
+        </div>
+       
+    </div>
+
+    
+
+    <header>
+      <nav class="navigation">
+        <a href="#" class="logo">M<span>eu</span>P<span>osto</span></a>
+
+        <ul class="menu">
+          <li class="item-menu"><a href="#">Inicio</a></li>
+          <li class="item-menu"><a href="#about">Sobre nós</a></li>
+          <li class="item-menu"><a href="#services">Agendamento</a></li>
+          <li class="item-menu"><a href="#contato">Contato</a></li>
+        </ul>
+
+      
+
+        <section onclick="menuopen()" class="bot-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </section>
+      </nav>
+
+<div class="menu-mobile">
+     <ul>
+        <li class="item-menu"><a href="#">Inicio</a></li>
+        <li class="item-menu"><a href="#about">Sobre nós</a></li>
+        <li class="item-menu"><a href="#services">Agendamento</a></li>
+        <li class="item-menu"><a href="#contato">Contato</a></li>
+      </ul>
+</div>
+   
+
+    </header>
+
+    <section class="home">
+      <header class="text">
+        <h1 class="title">Seja bem vindo ao Meu Posto!</h1>
+        <h2 class="subtitle">
+          Aqui você vai poder marcar consultas no posto que você frequenta sem precisar enfrentar filas.
+        </h2>
+        <div class="content">  
+          <div class="login2">
+
+            <form class="card">
+
+                <div class="card-header">
+
+                    <h2>Entre na sua conta</h2>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="card-content-area">
+
+                        <label for="usuario ou email">Usuário</label>
+
+                        <input type="text" id="usuario" placeholder="Digite seu email ou usuário" autocomplete="on">
+
+                    </div>
+
+                    <div class="card-content-area">
+
+                        <label for="password">Senha</label>
+
+                        <input type="password" placeholder="Digite sua senha" id="password" autocomplete="off">
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer">
+<div onclick="openagender()" class="botao-login">
+  <input  type="submit" value="login" class="submit">
+</div>
+                    
+
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+
+                </div>
+
+            </form>
+
+          <button onclick="Onclick()" class="login">Ainda nao tem uma conta? se cadastre agora</button>
+
+        </div>
+      
+       
+      </header>
+
+      <img class="ftprincipal" src="/imagem/ODHMJY0-removebg-preview.png" alt="" />
+    </section>
+
+
+</div>
+
+
+
+    <section id="about" class="about">
+  <header>
+  <h2 class="subtitle">
+    Sobre Nós
+  </h2>
+  <p>
+    O site MeuPosto foi criado com o intuito de diminuir as filas em postos de saúde na cidade de Penedo-AL, visto que as pessoas acordavam muito cedo para pegar uma ficha para marcar uma consulta seja com médico ou dentista. O site traz praticidade e acessibilidade em qualquer lugar que a pessoa esteja para agendar sua consulta.
+    
+  </p>
+  
+  </header>
+  <img class="img2" src="/imagem/undraw_mobile_interface_re_1vv9.svg" alt="">
+    </section>
+
+    <section id="services" class="services">
+<header>
+  <h2 class="subtitle">Agendamento de consultas</h2>
+</header>
+<div class="content">
+  <p>
+    Para acessar o site na aba onde é possivel agendar consultas no posto de sáude frequentado, é preciso que o usuário crie uma conta com todos os dados necessários, como nome completto,CPF,o posto que frequenta, o bairro que mora e etc. Após isso o usuário terá acesso as informações disponiveis sobre o determinado posto de sáude e em seguida é mostrado as vagas disponiveis
+
+  </p>
+</div>
+    </section>
+    <section id="contato" class="contato">
+  <div class="content">
+<h2>Contato</h2>
+<div class="end">
+  <p>Entre em contato conosco para sanar suas principais dúvidas, via whatsapp: 82 99999-9999 ou e-mail: meuposto@gmail.com!</p>
+<p>Criado por Ana Beatriz, Erika Martins, Joandeson Luan, Juarez Barbosa e Paula Pádua
+
+  Curso de Sistemas de Informação 2019.2
+  
+  Ano de criação: 2022</p>
+</div>
+
+  </div>
+  
+
+
+    </section>
+
+      
+<div class="container-agender">
+  <div class="modal-agender">
+    <span onclick="closeagender()" class="close-agender">
+  X
+ </span> 
+     <h2>
+    Agendamento de consultas
+  </h2>
+  <form action="
+  "><label for="name">Nome do Paciente:</label>
+  <input type="text" name="name" id="name" placeholder="Digite aqui seu nome completo*" required><br>
+  <br>
+  <label>Posto de Saúde:</label>
+<input type="text" id="Posto de saúde" name="Posto de Saúde" placeholder="Digite aqui o posto de saúde*" required><br>
+<br>
+<label>Escolha o horário e a data da consulta:</label>
+<input type="date" name="date" id="date*" required>
+<input type="time" name="date" id="time*" required>
+<br>
+<input class="agende" type="submit" value="Fazer Agendamento">
+
+</form>
+ 
+  </div>
+
+</div>
+
+  </body>
+</html>
